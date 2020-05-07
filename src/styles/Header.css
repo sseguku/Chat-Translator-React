@@ -1,0 +1,29 @@
+/* Modify the backgorund color */
+
+.navbar {
+  padding: 0.635rem 4.375rem !important;
+  /*   background-color: #627862; */
+  background: rgb(49, 72, 49);
+  background: linear-gradient(
+    90deg,
+    rgba(49, 72, 49, 1) 40%,
+    rgba(98, 120, 98, 1) 71%
+  );
+
+  font-size: 1.45rem;
+  font-family: "Roboto", sans-serif;
+}
+.nav-link {
+  padding: 0.5rem 3rem !important;
+  color: #ffffff !important;
+  margin: 0 5px;
+}
+.nav-link:focus,
+.nav-link:hover {
+  background-color: #434643;
+}
+
+.navbar-brand {
+  font-size: 1.74rem !important;
+  font-weight: 600;
+}
